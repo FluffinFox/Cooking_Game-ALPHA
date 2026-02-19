@@ -1,0 +1,18 @@
+[gd_scene format=3 uid="uid://che0agh8rg3xo"]
+
+[ext_resource type="Script" uid="uid://cthjh04wwpk2t" path="res://Scripts/draggable_obj.gd" id="1_hgc2l"]
+[ext_resource type="Texture2D" uid="uid://c2glvy8sxgeu8" path="res://Assets/Top Bun.png" id="2_s7hyp"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_ymhq7"]
+size = Vector2(98, 25)
+
+[node name="Draggable_Obj" type="RigidBody2D" unique_id=49991924]
+input_pickable = true
+script = ExtResource("1_hgc2l")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=2125692878]
+position = Vector2(0, 0.5)
+shape = SubResource("RectangleShape2D_ymhq7")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=207305268]
+texture = ExtResource("2_s7hyp")

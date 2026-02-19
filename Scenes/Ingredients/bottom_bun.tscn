@@ -1,0 +1,15 @@
+[gd_scene format=3 uid="uid://v3is6j2bfwmq"]
+
+[ext_resource type="Script" uid="uid://rxhqus2mgh20" path="res://bottom_bun.gd" id="1_sok8q"]
+[ext_resource type="Texture2D" uid="uid://bbnc5eqhf5731" path="res://Assets/BottomBun.png" id="2_tlots"]
+
+[node name="bottom_bun" type="RigidBody2D" unique_id=1630785814]
+input_pickable = true
+script = ExtResource("1_sok8q")
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="." unique_id=553759831]
+y_sort_enabled = true
+polygon = PackedVector2Array(-44, -8, 44, -8, 50, -5, 50, 6, 43, 8, -42, 8, -50, 6, -50, -5)
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1854480799]
+texture = ExtResource("2_tlots")

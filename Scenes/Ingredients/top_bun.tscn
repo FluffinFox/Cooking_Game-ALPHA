@@ -1,0 +1,15 @@
+[gd_scene format=3 uid="uid://dtu6w5grkbmfd"]
+
+[ext_resource type="Script" uid="uid://c7ceo3a7ona5u" path="res://Scripts/top_bun.gd" id="1_pfrk1"]
+[ext_resource type="Texture2D" uid="uid://c2glvy8sxgeu8" path="res://Assets/Top Bun.png" id="2_npbl5"]
+
+[node name="Top_Bun" type="RigidBody2D" unique_id=740317932]
+y_sort_enabled = true
+input_pickable = true
+script = ExtResource("1_pfrk1")
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="." unique_id=1208528781]
+polygon = PackedVector2Array(-48, 10, -48, -3, -40, -9, 40, -9, 48, -3, 48, 10)
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1186208990]
+texture = ExtResource("2_npbl5")

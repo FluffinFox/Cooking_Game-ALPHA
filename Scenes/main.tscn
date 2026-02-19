@@ -1,0 +1,54 @@
+[gd_scene format=3 uid="uid://dqg0g87i46xxo"]
+
+[ext_resource type="PackedScene" uid="uid://brttuybpwcvli" path="res://Scenes/countertop.tscn" id="1_bo1nx"]
+[ext_resource type="PackedScene" uid="uid://boovoa6hbacmo" path="res://Scenes/Ingredients/patty.tscn" id="3_8gbba"]
+[ext_resource type="PackedScene" uid="uid://dtu6w5grkbmfd" path="res://Scenes/Ingredients/top_bun.tscn" id="3_jjvhh"]
+[ext_resource type="PackedScene" uid="uid://v3is6j2bfwmq" path="res://Scenes/Ingredients/bottom_bun.tscn" id="4_kry3j"]
+
+[node name="Main" type="Node2D" unique_id=1828316807]
+y_sort_enabled = true
+
+[node name="Countertop" parent="." unique_id=747058661 instance=ExtResource("1_bo1nx")]
+position = Vector2(604, 833)
+
+[node name="bottom_bun" parent="." unique_id=1630785814 instance=ExtResource("4_kry3j")]
+position = Vector2(348, 729)
+
+[node name="bottom_bun2" parent="." unique_id=685613758 instance=ExtResource("4_kry3j")]
+position = Vector2(354, 667)
+
+[node name="bottom_bun3" parent="." unique_id=997578556 instance=ExtResource("4_kry3j")]
+position = Vector2(356, 571)
+
+[node name="bottom_bun4" parent="." unique_id=233319125 instance=ExtResource("4_kry3j")]
+position = Vector2(355, 602)
+
+[node name="Patty" parent="." unique_id=786537501 instance=ExtResource("3_8gbba")]
+position = Vector2(765, 662)
+
+[node name="Patty2" parent="." unique_id=2106779642 instance=ExtResource("3_8gbba")]
+position = Vector2(767, 620)
+
+[node name="Top_Bun" parent="." unique_id=740317932 instance=ExtResource("3_jjvhh")]
+position = Vector2(609, 790)
+
+[node name="Top_Bun2" parent="." unique_id=741012808 instance=ExtResource("3_jjvhh")]
+position = Vector2(614, 723)
+
+[node name="bottom_bun5" parent="." unique_id=1328941442 instance=ExtResource("4_kry3j")]
+position = Vector2(347, 702)
+
+[node name="bottom_bun6" parent="." unique_id=706885216 instance=ExtResource("4_kry3j")]
+position = Vector2(349, 637)
+
+[node name="Countertop2" parent="." unique_id=1665833347 instance=ExtResource("1_bo1nx")]
+position = Vector2(81, 756)
+
+[node name="Countertop3" parent="." unique_id=531557920 instance=ExtResource("1_bo1nx")]
+position = Vector2(1131, 757)
+
+[node name="bottom_bun7" parent="." unique_id=1690834047 instance=ExtResource("4_kry3j")]
+position = Vector2(360, 534)
+
+[node name="bottom_bun8" parent="." unique_id=2145766843 instance=ExtResource("4_kry3j")]
+position = Vector2(363, 499)
