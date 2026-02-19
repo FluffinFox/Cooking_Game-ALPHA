@@ -13,56 +13,43 @@ y_sort_enabled = true
 position = Vector2(604, 833)
 
 [node name="bottom_bun" parent="." unique_id=1630785814 instance=ExtResource("4_kry3j")]
-position = Vector2(-469, 666)
+position = Vector2(402, 639)
 
 [node name="bottom_bun2" parent="." unique_id=685613758 instance=ExtResource("4_kry3j")]
-position = Vector2(-422, 578)
+position = Vector2(396, 608)
 
 [node name="bottom_bun3" parent="." unique_id=997578556 instance=ExtResource("4_kry3j")]
-position = Vector2(-849, 707)
+position = Vector2(393, 743)
 
 [node name="bottom_bun4" parent="." unique_id=233319125 instance=ExtResource("4_kry3j")]
-position = Vector2(-850, 738)
+position = Vector2(392, 774)
 
 [node name="Patty" parent="." unique_id=786537501 instance=ExtResource("3_8gbba")]
-position = Vector2(477, 763)
+position = Vector2(536, 765)
 
 [node name="Patty2" parent="." unique_id=2106779642 instance=ExtResource("3_8gbba")]
-position = Vector2(416, 699)
+position = Vector2(536, 791)
 
 [node name="Top_Bun" parent="." unique_id=740317932 instance=ExtResource("3_jjvhh")]
-position = Vector2(-82, 626)
+position = Vector2(700, 706)
 
 [node name="Top_Bun2" parent="." unique_id=741012808 instance=ExtResource("3_jjvhh")]
-position = Vector2(-106, 674)
+position = Vector2(703, 741)
 
 [node name="Stovetop" parent="." unique_id=1601315941 instance=ExtResource("5_kry3j")]
 position = Vector2(1017, 793)
 
 [node name="Top_Bun3" parent="." unique_id=97911055 instance=ExtResource("3_jjvhh")]
-position = Vector2(-138, 592)
+position = Vector2(700, 671)
 
 [node name="Top_Bun4" parent="." unique_id=2017326856 instance=ExtResource("3_jjvhh")]
-position = Vector2(-106, 723)
+position = Vector2(703, 790)
 
 [node name="Top_Bun5" parent="." unique_id=1773701529 instance=ExtResource("3_jjvhh")]
-position = Vector2(-261, 679)
+position = Vector2(700, 630)
 
 [node name="bottom_bun5" parent="." unique_id=172098576 instance=ExtResource("4_kry3j")]
-position = Vector2(-841, 655)
+position = Vector2(401, 691)
 
 [node name="bottom_bun6" parent="." unique_id=1346746711 instance=ExtResource("4_kry3j")]
-position = Vector2(-672, 641)
-
-[node name="Countertop2" parent="." unique_id=2030812287 instance=ExtResource("1_bo1nx")]
-position = Vector2(250, 657.00006)
-rotation = 0.9948377
-
-[node name="Countertop3" parent="." unique_id=511434792 instance=ExtResource("1_bo1nx")]
-position = Vector2(649, 776.00006)
-rotation = -0.62133723
-scale = Vector2(0.37, 0.37)
-
-[node name="Countertop4" parent="." unique_id=1263910022 instance=ExtResource("1_bo1nx")]
-position = Vector2(414.99997, 782.9999)
-rotation = 0.43633232
+position = Vector2(389, 798)
