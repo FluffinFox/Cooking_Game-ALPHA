@@ -1,0 +1,49 @@
+[gd_scene format=3 uid="uid://dwm4cxmycrx54"]
+
+[node name="PlayableMenu" type="Node2D" unique_id=212275514]
+
+[node name="Control" type="Control" parent="." unique_id=819348710]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="BoxContainer" type="BoxContainer" parent="Control" unique_id=1445290560]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -20.0
+offset_top = 796.0
+offset_right = 1180.0
+offset_bottom = 880.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/separation = 30
+alignment = 1
+
+[node name="Order_Station" type="Button" parent="Control/BoxContainer" unique_id=1682011387]
+custom_minimum_size = Vector2(150, 0)
+layout_mode = 2
+text = "Order 
+Station"
+
+[node name="Grill_Station" type="Button" parent="Control/BoxContainer" unique_id=1892423198]
+custom_minimum_size = Vector2(150, 0)
+layout_mode = 2
+text = "Grill 
+Station"
+
+[node name="Build_Station" type="Button" parent="Control/BoxContainer" unique_id=17450352]
+custom_minimum_size = Vector2(150, 0)
+layout_mode = 2
+text = "Build 
+Station"
+
+[node name="Serving_Station" type="Button" parent="Control/BoxContainer" unique_id=86813359]
+custom_minimum_size = Vector2(150, 0)
+layout_mode = 2
+text = "Serving 
+Station"

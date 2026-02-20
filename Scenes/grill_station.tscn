@@ -1,0 +1,32 @@
+[gd_scene format=3 uid="uid://d3r6r4dec1lwx"]
+
+[ext_resource type="PackedScene" uid="uid://brttuybpwcvli" path="res://Scenes/countertop.tscn" id="1_qbua5"]
+[ext_resource type="PackedScene" uid="uid://b0hgu33veoqgu" path="res://Scenes/stovetop.tscn" id="2_vbegl"]
+[ext_resource type="PackedScene" uid="uid://boovoa6hbacmo" path="res://Scenes/Ingredients/patty.tscn" id="3_vbegl"]
+[ext_resource type="PackedScene" uid="uid://dheshekdncxi7" path="res://Scenes/transfer_plate.tscn" id="4_jxxqy"]
+
+[node name="Grill_Station" type="Node2D" unique_id=766319148]
+z_index = 1
+
+[node name="Countertop" parent="." unique_id=747058661 instance=ExtResource("1_qbua5")]
+position = Vector2(835, 725)
+collision_layer = 2
+collision_mask = 0
+
+[node name="Stovetop" parent="." unique_id=1601315941 instance=ExtResource("2_vbegl")]
+position = Vector2(199, 742)
+
+[node name="Stovetop2" parent="." unique_id=842060731 instance=ExtResource("2_vbegl")]
+position = Vector2(200, 597)
+
+[node name="Patty" parent="." unique_id=786537501 instance=ExtResource("3_vbegl")]
+position = Vector2(637, 655)
+
+[node name="Patty2" parent="." unique_id=1564760972 instance=ExtResource("3_vbegl")]
+position = Vector2(637, 624)
+
+[node name="Patty3" parent="." unique_id=117393146 instance=ExtResource("3_vbegl")]
+position = Vector2(636, 588)
+
+[node name="transfer_plate" parent="." unique_id=402277779 instance=ExtResource("4_jxxqy")]
+position = Vector2(1067, 693)

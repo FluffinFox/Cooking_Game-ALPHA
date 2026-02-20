@@ -3,13 +3,16 @@
 [ext_resource type="Script" uid="uid://02vw2rsfcj4j" path="res://Scripts/Patty.gd" id="1_5ds6a"]
 [ext_resource type="Texture2D" uid="uid://dbq2fvb4ebrsf" path="res://Assets/UncookedPatty.png" id="2_o4iof"]
 
-[node name="Patty" type="RigidBody2D" unique_id=786537501]
+[node name="Patty" type="RigidBody2D" unique_id=786537501 groups=["ingredients"]]
+z_index = 1
 y_sort_enabled = true
+collision_layer = 2
+collision_mask = 2
 input_pickable = true
 script = ExtResource("1_5ds6a")
 
-[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="." unique_id=284016740]
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="." unique_id=284016740 groups=["ingredients"]]
 polygon = PackedVector2Array(-44, -8, 44, -8, 49, -5, 49, 6, 45, 8, -44, 8, -49, 6, -49, -5)
 
-[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1014551764]
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1014551764 groups=["ingredients"]]
 texture = ExtResource("2_o4iof")

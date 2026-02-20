@@ -5,6 +5,8 @@
 
 [node name="Top_Bun" type="RigidBody2D" unique_id=740317932]
 y_sort_enabled = true
+collision_layer = 4
+collision_mask = 4
 input_pickable = true
 script = ExtResource("1_pfrk1")
 

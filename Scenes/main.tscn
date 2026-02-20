@@ -1,55 +1,23 @@
 [gd_scene format=3 uid="uid://dqg0g87i46xxo"]
 
-[ext_resource type="PackedScene" uid="uid://brttuybpwcvli" path="res://Scenes/countertop.tscn" id="1_bo1nx"]
-[ext_resource type="PackedScene" uid="uid://boovoa6hbacmo" path="res://Scenes/Ingredients/patty.tscn" id="3_8gbba"]
-[ext_resource type="PackedScene" uid="uid://dtu6w5grkbmfd" path="res://Scenes/Ingredients/top_bun.tscn" id="3_jjvhh"]
-[ext_resource type="PackedScene" uid="uid://v3is6j2bfwmq" path="res://Scenes/Ingredients/bottom_bun.tscn" id="4_kry3j"]
-[ext_resource type="PackedScene" uid="uid://b0hgu33veoqgu" path="res://Scenes/stovetop.tscn" id="5_kry3j"]
+[ext_resource type="PackedScene" uid="uid://dwm4cxmycrx54" path="res://Scenes/playable_menu.tscn" id="1_jjgbg"]
+[ext_resource type="Script" uid="uid://css4jlag1cadi" path="res://Scenes/main.gd" id="1_jjvhh"]
+[ext_resource type="PackedScene" uid="uid://u3mfs5bnrdx6" path="res://Scenes/order_station.tscn" id="2_21xkr"]
+[ext_resource type="PackedScene" uid="uid://d3r6r4dec1lwx" path="res://Scenes/grill_station.tscn" id="2_kry3j"]
+[ext_resource type="PackedScene" uid="uid://bn06vy7qifnq2" path="res://Scenes/build_station.tscn" id="3_21xkr"]
+[ext_resource type="PackedScene" uid="uid://bu1ono6l5uaxk" path="res://Scenes/serving_station.tscn" id="5_21xkr"]
 
 [node name="Main" type="Node2D" unique_id=1828316807]
 y_sort_enabled = true
+script = ExtResource("1_jjvhh")
 
-[node name="Countertop" parent="." unique_id=747058661 instance=ExtResource("1_bo1nx")]
-position = Vector2(604, 833)
+[node name="Order_station" parent="." unique_id=1893540325 instance=ExtResource("2_21xkr")]
 
-[node name="bottom_bun" parent="." unique_id=1630785814 instance=ExtResource("4_kry3j")]
-position = Vector2(402, 639)
+[node name="Grill_Station" parent="." unique_id=766319148 instance=ExtResource("2_kry3j")]
 
-[node name="bottom_bun2" parent="." unique_id=685613758 instance=ExtResource("4_kry3j")]
-position = Vector2(396, 608)
+[node name="Build_Station" parent="." unique_id=312750899 instance=ExtResource("3_21xkr")]
 
-[node name="bottom_bun3" parent="." unique_id=997578556 instance=ExtResource("4_kry3j")]
-position = Vector2(393, 743)
+[node name="Serving_Station" parent="." unique_id=1871409240 instance=ExtResource("5_21xkr")]
 
-[node name="bottom_bun4" parent="." unique_id=233319125 instance=ExtResource("4_kry3j")]
-position = Vector2(392, 774)
-
-[node name="Patty" parent="." unique_id=786537501 instance=ExtResource("3_8gbba")]
-position = Vector2(536, 765)
-
-[node name="Patty2" parent="." unique_id=2106779642 instance=ExtResource("3_8gbba")]
-position = Vector2(536, 791)
-
-[node name="Top_Bun" parent="." unique_id=740317932 instance=ExtResource("3_jjvhh")]
-position = Vector2(700, 706)
-
-[node name="Top_Bun2" parent="." unique_id=741012808 instance=ExtResource("3_jjvhh")]
-position = Vector2(703, 741)
-
-[node name="Stovetop" parent="." unique_id=1601315941 instance=ExtResource("5_kry3j")]
-position = Vector2(1017, 793)
-
-[node name="Top_Bun3" parent="." unique_id=97911055 instance=ExtResource("3_jjvhh")]
-position = Vector2(700, 671)
-
-[node name="Top_Bun4" parent="." unique_id=2017326856 instance=ExtResource("3_jjvhh")]
-position = Vector2(703, 790)
-
-[node name="Top_Bun5" parent="." unique_id=1773701529 instance=ExtResource("3_jjvhh")]
-position = Vector2(700, 630)
-
-[node name="bottom_bun5" parent="." unique_id=172098576 instance=ExtResource("4_kry3j")]
-position = Vector2(401, 691)
-
-[node name="bottom_bun6" parent="." unique_id=1346746711 instance=ExtResource("4_kry3j")]
-position = Vector2(389, 798)
+[node name="PlayableMenu" parent="." unique_id=212275514 instance=ExtResource("1_jjgbg")]
+position = Vector2(10, -4)

@@ -1,0 +1,11 @@
+[gd_scene format=3 uid="uid://bu1ono6l5uaxk"]
+
+[node name="Serving_Station" type="Node2D" unique_id=1871409240]
+z_index = 3
+
+[node name="Label" type="Label" parent="." unique_id=284811076]
+offset_right = 852.0
+offset_bottom = 382.0
+theme_override_font_sizes/font_size = 40
+text = "Ooooo you see a serving station here
+go serve the customers"

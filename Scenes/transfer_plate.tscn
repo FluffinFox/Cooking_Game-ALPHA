@@ -1,0 +1,33 @@
+[gd_scene format=3 uid="uid://dheshekdncxi7"]
+
+[ext_resource type="Texture2D" uid="uid://bgf4fynnkqd5n" path="res://icon.svg" id="1_6bawm"]
+[ext_resource type="Script" uid="uid://dmagi0x81mfty" path="res://Scripts/TransferPlateLogic.gd" id="2_x4yrm"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_x4yrm"]
+size = Vector2(195, 38)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_jhcrb"]
+size = Vector2(195, 20)
+
+[node name="transfer_plate" type="StaticBody2D" unique_id=402277779]
+collision_layer = 6
+collision_mask = 0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=987327138]
+position = Vector2(1.5, 0)
+shape = SubResource("RectangleShape2D_x4yrm")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=762506715]
+modulate = Color(1, 1, 0.54901963, 1)
+position = Vector2(1.5000038, 3.5762787e-07)
+scale = Vector2(1.5390626, 0.3125)
+texture = ExtResource("1_6bawm")
+
+[node name="Area2D" type="Area2D" parent="." unique_id=1773899091]
+collision_layer = 6
+collision_mask = 6
+script = ExtResource("2_x4yrm")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D" unique_id=55373208]
+position = Vector2(1.5, -16)
+shape = SubResource("RectangleShape2D_jhcrb")
