@@ -1,6 +1,7 @@
 [gd_scene format=3 uid="uid://dqg0g87i46xxo"]
 
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 [ext_resource type="PackedScene" uid="uid://brttuybpwcvli" path="res://Scenes/countertop.tscn" id="1_bo1nx"]
 [ext_resource type="PackedScene" uid="uid://boovoa6hbacmo" path="res://Scenes/Ingredients/patty.tscn" id="3_8gbba"]
 [ext_resource type="PackedScene" uid="uid://dtu6w5grkbmfd" path="res://Scenes/Ingredients/top_bun.tscn" id="3_jjvhh"]
@@ -54,6 +55,14 @@ position = Vector2(401, 691)
 
 [node name="bottom_bun6" parent="." unique_id=1346746711 instance=ExtResource("4_kry3j")]
 position = Vector2(389, 798)
+=======
+[ext_resource type="PackedScene" uid="uid://d3r6r4dec1lwx" path="res://Scenes/grill_station.tscn" id="2_kry3j"]
+
+[node name="Main" type="Node2D" unique_id=1828316807]
+y_sort_enabled = true
+
+[node name="Grill_Station" parent="." unique_id=766319148 instance=ExtResource("2_kry3j")]
+>>>>>>> Stashed changes
 =======
 [ext_resource type="PackedScene" uid="uid://d3r6r4dec1lwx" path="res://Scenes/grill_station.tscn" id="2_kry3j"]
 

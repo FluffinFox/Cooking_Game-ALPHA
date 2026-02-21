@@ -5,6 +5,11 @@
 
 [node name="bottom_bun" type="RigidBody2D" unique_id=1630785814]
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+=======
+collision_layer = 2
+collision_mask = 2
+>>>>>>> Stashed changes
 =======
 collision_layer = 2
 collision_mask = 2
