@@ -6,6 +6,11 @@
 [node name="Top_Bun" type="RigidBody2D" unique_id=740317932]
 y_sort_enabled = true
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+=======
+collision_layer = 2
+collision_mask = 2
+>>>>>>> Stashed changes
 =======
 collision_layer = 2
 collision_mask = 2
